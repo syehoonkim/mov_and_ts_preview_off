@@ -4,7 +4,7 @@ Windows 탐색기는 크고 많은 mov 파일이 들어있는 폴더를 열 때 
 [Sendust](https://github.com/sendust)님의 [블로그 글](https://blog.naver.com/sendust/222957359683)을 참고하여 스크립트를 작성하였으며, 
 [AveYo](https://github.com/AveYo)님의 [RunAsTI](https://github.com/AveYo/LeanAndMean) 레포지토리 안의 [reg_own.ps1](https://github.com/AveYo/LeanAndMean/blob/main/reg_own.ps1) 덕분에 만들 수 있었습니다.
 
-Windows Explorer gets extremely slow if there are heavy mov files inside a directory for Explorer tries to make all the previews of them.   
-This repo contains a PowerShell script which solves this problem by disabling Windows Explorer's Preview on mov file extension.   
+Windows Explorer gets extremely slow if there are heavy mov files inside a directory since Explorer tries to make all the previews of them.   
+This repo contains a PowerShell script which solves this problem by disabling it.
 I appreciate [AveYo](https://github.com/AveYo) for his/her [RunAsTI](https://github.com/AveYo/LeanAndMean) project.
 Without his/her [reg_own.ps1](https://github.com/AveYo/LeanAndMean/blob/main/reg_own.ps1), I could not have done this.
