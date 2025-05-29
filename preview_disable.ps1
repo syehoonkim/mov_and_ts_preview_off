@@ -36,3 +36,8 @@ reg_own -key $key -user $USER -acc Allow -perm FullControl -list
 Rename-ItemProperty -Path $key -Name ".mov" -NewName ".mov_"
 
 Rename-Item -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\PropertySystem\PropertyHandlers\.mov" -NewName ".mov_"
+
+reg_own -key $key -user $USER -acc Allow -perm FullControl -list
+Rename-ItemProperty -Path $key -Name ".ts" -NewName ".ts_"
+
+Rename-Item -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\PropertySystem\PropertyHandlers\.ts" -NewName ".ts_"
